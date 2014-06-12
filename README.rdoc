@@ -1,0 +1,60 @@
+
+
+Pour installer une nouvelle librairie qui s'appelle anotate' : 
+aller dans le gemfile ajouter une ligne, tel que "gem 'annotate'
+et dans la console taper bundle install
+
+"rails g controller home" crée un nouveau controlleur
+"rails g scaffold events ..."
+"rails d controller home"
+
+"rail s" pour lancer le serveur
+"avec un egal ça affiche, sans egal ça affiche pas"
+
+ctrl shift p
+crtl shift f pour chercher dans projet
+
+creer une branche :  git checkout -b steph
+voir les chgmts : git status
+pour ajouter tous les changements au commit (y compris suppressions) : git add .
+pour ajouter : git add -u
+verifier status du commit :  git status
+commit : git commit -m "message du commit"
+
+
+<ul>
+  <% @events.each do |ev| %>
+    <li><%= ev.title %></li>
+  <% end %>
+</ul>
+
+
+
+== README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+
+Please feel free to use a different markup language if you do not plan to run
+<tt>rake doc:app</tt>.
